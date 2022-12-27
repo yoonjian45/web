@@ -1,0 +1,7 @@
+body{background-color: #333333; color: #999999;}
+div{color: white;}
+#BTS{color: red;}
+.list{color: aqua;}
+li:hover{background-color: rgba(55,155,200,0.5); color: black;}
+tr:hover{background-color: antiquewhite; color: black;}
+#btn{background: darkblue; color: aliceblue;}
