@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $(누가).어떤동작을 할때(이것을 해라)
+                // $(누구의).무엇을(어떻게);
+            $('#pic').click(function(){
+                $('#pic').attr('src','images/y.jpg')
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <img id="pic" src="images/before.jpg" alt="식재료">
+        <img id="pic" src="images/before.jpg" alt="식재료">
+    </div>
+</body>
+</html>
