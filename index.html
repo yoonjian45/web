@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>세기맛기행 축제</title>
     <script src="javscript/jquery-1.12.3.js"></script>
     <script src="javscript/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="wrap">
@@ -14,7 +17,7 @@
                 <a href="#"><img src="images/logo.png" alt="로고"></a>
             </div>
             <nav class="menu">
-                <ul class="mavi">
+                <ul class="navi">
                     <li><a href="#">주최소개</a>
                         <ul class="submenu">
                             <li><a href="#">인사말</a></li>
@@ -47,75 +50,89 @@
             </nav>
         </div>
     </header>
-
     <div class="imgslide">
-        <ul>
-            <li>
-                <a href="#">
-                    <span>세기맛기행 축제 시작</span>
-                    <img src="images/img1.jpg" alt="이미지1">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span>유기농 재료로 음식 만들기</span>
-                    <img src="images/img2.jpg" alt="이미지1">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span>신선한 재료와 전강 이야기</span>
-                    <img src="images/img3.jpg" alt="이미지1">
-                </a>
-            </li>
-        </ul>
+        <div class="slidelist">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>세기맛기행 축제 시작</span>
+                        <img src="images/img1.jpg" alt="이미지1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>유기농 재료로 음식 만들기</span>
+                        <img src="images/img2.jpg" alt="이미지2">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>신선한 재료와 전강 이야기</span>
+                        <img src="images/img3.jpg" alt="이미지3">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     </div>
     <div class="contents">
-        <div class="modal">
+        <div id="modal">
             <div class="modal_up">
                 <div class="uptitle">맛기행 축제 알림</div>
                 <div class="upbody">
                     이탈리아 음식과 함께 이탈리아 여행을 따나보세요.
-                    이번 맛기행 축제에서는 이탈리아 전통 와인과 식빵을 중심으로 
+                    이번 맛기행 축제에서는 이탈리아 전통 와인과 식빵을 중심으로
                     여러 이탈이라 음식을 선보입니다.
                     이탈리아 전통 음식의 비법과 유래에 대한 설명회도 참여해보세요.
-                    축제에 참가하신 분틀께는 작은 기념품도 마련되어 있습니다. 
+                    축제에 참가하신 분틀께는 작은 기념품도 마련되어 있습니다.
                 </div>
                 <div class="btn">닫기</div>
             </div>
         </div>
         <div class="notice">
-            <div class="tab"><h4>공지사항</h4></div>
+            <div class="tab">
+                <h4>공지사항</h4>
+            </div>
             <ul>
                 <li>
-                    <a href="#"><apan>세계 맛기행 관련 공지1 2022.03.01</apan></a>
+                    <a href="#">
+                        <apan>세계 맛기행 관련 공지1 2022.03.01</apan>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><apan>세계 맛기행 관련 공지2 2022.03.01</apan></a>
+                    <a href="#">
+                        <apan>세계 맛기행 관련 공지2 2022.03.01</apan>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><apan>세계 맛기행 관련 공지3 2022.03.01</apan></a>
+                    <a href="#">
+                        <apan>세계 맛기행 관련 공지3 2022.03.01</apan>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><apan>세계 맛기행 관련 공지4 2022.03.01</apan></a>
+                    <a href="#">
+                        <apan>세계 맛기행 관련 공지4 2022.03.01</apan>
+                    </a>
                 </li>
             </ul>
         </div>
 
-    <div class="gallery">
-        <div class="tab"><h4>갤러리</h4></div>
-        <ul>
-            <li><a href="#"><img src="images/gallery1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/gallery2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="images/gallery3.jpg" alt=""></a></li>
-        </ul>
-    </div>
-    <div class="shortcut">
-        <a href="#">
-            <img src="images/shortcut.jpg" alt="바로가기">
-            <span class="sctext">바로가기</span>
-        </a>
-    </div>
+        <div class="gallery">
+            <div class="tab">
+                <h4>갤러리</h4>
+            </div>
+            <ul>
+                <li><a href="#"><img src="images/gallery1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/gallery2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/gallery3.jpg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="shortcut">
+            <a href="#">
+                <img src="images/shortcut.jpg" alt="바로가기">
+                <span class="sctext">바로가기</span>
+            </a>
+        </div>
     </div>
     <footer>
         <div class="btlogo">
@@ -126,11 +143,9 @@
         <div class="slte">
             <div class="btmenu">
                 <ul>
-                    <li>
-                        <a href="#">하단메뉴1</a>
-                        <a href="#">하단메뉴2</a>
-                        <a href="#">하단메뉴3</a>
-                    </li>
+                    <li><a href="#">하단메뉴1</a></li>
+                    <li><a href="#">하단메뉴2</a></li>
+                    <li><a href="#">하단메뉴3</a></li>
                 </ul>
             </div>
             <div class="copy">
@@ -139,4 +154,5 @@
         </div>
     </footer>
 </body>
+
 </html>
