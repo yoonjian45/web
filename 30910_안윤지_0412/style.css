@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+
+.tabmenu > li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li > a{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tabmenu > li > a:hover{
+    background-color: yellow;
+}
+
+.tabmenu > li:first-child a{
+    border-right: none;
+}
+
+.tabmenu > li.active > a{
+    background: yellow; 
+}
+
+.tabmenu > li div{
+    left: 0px;
+    right: 0px;
+}
+
+.tabmenu > li.active div{
+    width: 400px;
+    height: 140px;
+    border: 1px solid;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+}
+
+.notice ul{
+    float: left;
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.notice li:nth-child(2n){
+    background-color: yellowgreen;
+}
+
+.notice span{
+    float: right;
+    right: 10px;
+    position: relative;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery{
+    position: absolute;
+}
+
+.gallery li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.gallery a{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: hotpink;
+}
+
+.gallery li:hover{
+    opacity: 0.5;
+}
