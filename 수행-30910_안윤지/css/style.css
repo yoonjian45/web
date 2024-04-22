@@ -1,0 +1,135 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.header{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    background-color: orange;
+    float: left;
+}
+
+.banner{
+    width: 1200px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.c1{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.c2{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.c3{
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    float: left;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.footer-sub{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.footer-menu{
+    width: 1000px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+}
+
+.footer-copy{
+    width: 1000px;
+    height: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.navi{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navi > li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: blueviolet;
+    float: left;
+}
+
+.navi > li > a:hover{
+    background-color: darkgoldenrod;
+    color: olivedrab;
+}
+
+.sub{
+    width: 150px;
+}
+
+.sub > li{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.sub > li > a:hover{
+    background-color: darkgreen;
+    color: black;
+}
