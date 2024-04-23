@@ -1,0 +1,139 @@
+@charset "ut-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.header{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: orange;
+}
+
+.banner{
+    width: 1200px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.c1{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.c2{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.c3{
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    float: left;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.footer-sub{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.footer-menu{
+    width: 1000px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+}
+
+.footer-copy{
+    width: 1000px;
+    height: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.navi{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.navi > li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: white;
+    text-align: center;
+}
+
+.navi > li > a:hover{
+    background-color: chartreuse;
+    color: darkgray;
+}
+
+.sub{
+    width: 150px;
+    height: 160px;
+    display: none;
+}
+
+.sub > li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: greenyellow;
+}
+
+.sub > li > a:hover{
+    background-color: cornflowerblue;
+    color: olive;
+}
+
