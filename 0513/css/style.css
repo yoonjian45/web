@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    width: 1000px;
+    height: 650px;
+}
+
+.left-box{
+    width: 200px;
+    height: 650px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.menu{
+    width: 200px;
+    height: 550px;
+    background-color: orange;
+    float: left;
+}
+
+.right_box{
+    width: 800px;
+    height: 550px;
+}
+
+.slide{
+    width: 800px;
+    height: 350px;
+    background-color: yellow;
+    float: right;
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+}
+
+.c1{
+    width: 270px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.c2{
+    width: 270px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.c3{
+    width: 260px;
+    height: 200px;
+    background-color: navy;
+    float: left;
+}
+
+.banner{
+    width: 800px;
+    height: 100px;
+}
+
+.copy{
+    width: 600px;
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.sns{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    float: left;
+}
+
+.familysite{
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    float: left;
+}
