@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.box{
+    width: 1000px;
+    height: 650px;
+}
+
+.left-box{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    /* background-color: red; */
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 200px;
+    height: 550px;
+    float: left;
+    background-color: orange;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+
+.navi{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navi  li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: slateblue;
+}
+
+.navi >  li > a:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.sub{
+    display: none;
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+
+.sub > li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: darkgoldenrod;
+}
+
+.sub > li >a:hover{
+    background-color: salmon;
+    color: white;
+}
+
+.right-box{
+    width: 800px;
+    height: 650px;
+    float: left;
+}
+
+.slide{
+    width: 800px;
+    height: 350px;
+    background-color: yellow;
+    position: relative;
+}
+
+.slide > a{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgtext{
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    position: absolute;
+    margin: -25px 0 0 -150px;
+    text-align: center;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(40, 40, 40, 0.3);
+}
+
+.slide img{
+    width: 800px;
+    height: 350px;
+    float: left;
+
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+}
+
+.notice{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.gallery{
+    width: 300px;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.c3{
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    float: right;
+}
+
+.c3 img{
+    width: 190px;
+    height: 190px;
+}
+
+.footer{
+    width: 800px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.footer-sub{
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+.btmenu{
+    width: 600px;
+    height: 50px;
+    background-color: skyblue;
+    /* float: left; */
+}
+
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: aquamarine;
+}
