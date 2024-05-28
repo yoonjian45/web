@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.header{
+    width: 1200px;
+    height: 100;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    /* background-color: red; */
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    /* background-color: orange; */
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+
+.navi{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.navi li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    background-color: darkcyan;
+}
+
+.navi > li > a:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.sub{
+    display: none;
+}
+
+.sub > li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: darkgrey;
+}
+
+.sub > li > a:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    /* background-color: yellow; */
+    float: left;
+    position: relative;
+}
+
+.slide li{
+    position: absolute;
+}
+
+.slide img{
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+}
+
+.imgslide a{
+    display: block;
+    position: absolute;
+}
+
+.imgtext{
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    color: #fff;
+    line-height: 30px;
+    margin: -30px 0 0 -250px;
+    left: 50%;
+    top: 50%;
+    font-weight: bold;
+    background-color: rgb(112, 93, 93, 0.5);
+    text-align: center;
+}
+
+.imgtext >a:hover{
+    opacity: 0.5;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.c1{
+    width: 400px;
+    height: 200px;
+    /* background-color: green; */
+    float: left;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+}
+
+.tabmenu li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li >a{
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+}
+
+.tabmenu > li >a:hover{
+    background-color: bisque;
+    color: white;
+}
+
+.tabmenu>li.active>{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 400px;
+    height: 150px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+.notive ul {
+    float: left;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notive li{
+    line-height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.notive span{
+    float: right;
+}
+
+.notive li:hover{
+    font-weight: bold;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
+}
+
+.gallery li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: silver;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.c2{
+    width: 400px;
+    height: 200px;
+    /* background-color: navy; */
+    float: left;
+}
+
+.banner{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+.banner img{
+    width: 380px;
+    height: 180px;
+}
+
+.batext{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(173, 167, 167, 0.5);
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin: 0;
+    margin-top: -115px;
+    margin-left: 95px;
+}
+
+.batext:hover{
+    opacity: 0.5;
+}
+
+.c3{
+    width: 400px;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+}
+
+.sc img{
+    width: 380px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sc {
+    float: right;
+}
+
+.sctext{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(165, 161, 161, 0.5);
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin: 0;
+    margin-top: -115px;
+    margin-left: 120px;
+}
+
+.sctext:hover{
+    opacity: 0.5;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    /* background-color: purple; */
+    float: left;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+.sns{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.sns img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 20px;
+}
+
+.sns ul{
+    margin-left: 16px;
+    margin-top: 9px;
+}
