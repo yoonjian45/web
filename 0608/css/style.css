@@ -1,0 +1,319 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: black;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.comtents{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+}
+
+.navi{
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.navi li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: aquamarine;
+}
+
+.navi > li > a:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+.sub{
+    display: none;
+}
+
+.sub > li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: teal;
+}
+
+.sub > li > a:hover{
+    background-color: turquoise;
+    color: white;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgslide{
+    height: 900px;
+}
+
+.imgslide a{
+    height: 300px;
+}
+
+.imgslide span{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(34, 32, 32,0.5);
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 400px;
+    line-height: 50px;
+}
+
+.imgslide img{
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.c1{
+    width: 400px;
+    height: 200px;
+    float: left;
+    /* background-color: red; */
+}
+
+.c1 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    object-fit: cover;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.tabmenu > li{
+    width: 100px;
+    float: left;
+    line-height: 30px;
+}
+
+.tabmenu > li >a{
+    display: block;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #ddd;
+}
+
+.tabmenu > li >a:hover{
+    background-color: #eee;
+}
+
+.tabmenu > li.active>a{
+    background-color: #eee
+}
+
+.tabmenu >li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 393px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+.notice li{
+    height: 38px;
+    line-height: 38px;
+}
+
+.notice li a{
+    margin-left: 10px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #eee;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.notice span{
+    float: right;
+    margin-right: 10px;
+}
+
+.gallery li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.gallery li:hover{
+    opacity: 0.5;
+}
+
+.c2{
+    width: 400px;
+    height: 200px;
+    float: left;
+    /* background-color: orange; */
+}
+
+.c2 li{
+    width: 350px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.c2 h4{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(26, 22, 22,0.5);
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.c2 h4:hover{
+    opacity: 0.5;
+}
+
+.c2 img{
+    width: 350px;
+    height: 180px;
+}
+
+.c3{
+    width: 400px;
+    height: 200px;
+    float: right;
+    /* background-color: yellow; */
+}
+
+.c3 li{
+    width: 350px;
+    height: 180px;
+    margin-top: 10px;
+    float: right;
+}
+
+.c3 h4{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(26, 22, 22,0.5);
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.c3 h4:hover{
+    opacity: 0.5;
+}
+
+.c3 h4{
+    position: absolute;
+}
+
+.c3 img{
+    width: 350px;
+    height: 180px;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+.banner-logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.banner-logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    width: 700px;
+    height: 100px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.copy>li{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sns{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.sns img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.sns li:hover{
+    opacity: 0.5;
+}
