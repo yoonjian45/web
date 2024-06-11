@@ -1,0 +1,327 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.header{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+
+.navi{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+}
+
+.navi li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: aqua;
+}
+
+.navi > li > a:hover{
+    background-color: aquamarine;
+}
+
+.sub{
+    display: none;
+}
+
+.sub > li{
+    background-color: turquoise;
+}
+
+.sub > li > a:hover{
+    background-color: teal;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img{
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.imgslide a{
+    height: 300px;
+}
+
+.imgslide{
+    height: 900px;
+} 
+
+.imgslide span{
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(34, 30, 30,0.5);
+    margin-top: 125px;
+    margin-left: 250px;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.c1{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.c1 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+.tabmenu > li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li > a{
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: none;
+    background-color: #eee;
+}
+
+.tabmenu > li.active > a{
+    background-color: white;
+}
+
+.tabmenu > li div{
+    position: absolute;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 393px;
+    height: 150px;
+    border: 1px solid #eee;
+}
+
+.tabmenu > li > a:hover{
+    background-color: white;
+}
+
+.notice li{
+    line-height: 38px;
+}
+
+.notice a{
+    margin-left: 5px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #ddd;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.notice span{
+    float: right;
+    margin-right: 5px;
+}
+
+.c2{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.c2 img{
+    width: 380px;
+    height: 180px;
+    margin-top: 10px;
+    float: right;
+}
+
+.c2 h4{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(26, 23, 23,0.5);
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 85px;
+}
+
+.c2 h4:hover{
+    opacity: 0.5;
+}
+
+
+.c3{
+    width: 400px;
+    height: 200px;
+    float: right;
+}
+
+.c3 img{
+    width: 380px;
+    height: 180px;
+    margin-top: 10px;
+    float: right;
+}
+
+.c3 h4{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(26, 23, 23,0.5);
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 85px;
+}
+
+.c3 h4:hover{
+    opacity: 0.5;
+}
+
+#modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(228, 170, 228,0.3);
+    display: none;
+}
+
+#modal.active{
+    display: block;
+}
+
+.modalup{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.uptitle{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.upbody{
+    width: 380px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.btn{
+    width: 90px;
+    line-height: 30px;
+    background-color: darkcyan;
+    margin-top: 135px;
+    margin-left: 300px;
+    display: block;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.footer-logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    width: 700px;
+    height: 100px;
+    float: left;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.sns{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.sns img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.sns li:hover{
+    opacity: 0.5;
+}
