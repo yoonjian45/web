@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: black;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.dox{
+    width: 1200px;
+    height: 650px;
+}
+
+.left{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.menu{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-color: orange;
+}
+
+.navi{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.navi li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.navi > li > a:hover{
+    background-color: aquamarine;
+}
+
+.sub{
+    left: 187px;
+    top: 30px;
+    display: none;
+    position: absolute;
+}
+
+.sub > li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: turquoise;
+}
+
+.sub > li > a:hover{
+    background-color: teal;
+}
+
+.rigth{
+    width: 1000px;
+    height: 550px;
+}
+
+.slide{
+    width: 1000px;
+    height: 350px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img{
+    width: 1000px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.imgsdlie{
+    height: 1050px;
+}
+
+.imgslide li{
+    height: 350px;
+}
+
+.imgslide span{
+    position: absolute;
+    text-align: center;
+    width: 800px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(17, 16, 16,0.5);
+    margin-top: 160px;
+    margin-left: 105px;
+}
+
+.contents{
+    width: 1000px;
+    height: 200px;
+}
+
+.c1{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.c1 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+    /* display: none; */
+}
+
+.tabmenu > li{
+    width: 100px;
+    float: left;
+    line-height: 30px;
+}
+
+.tabmenu > li > a{
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    border-bottom: none;
+    display: block;
+    text-align: center;
+}
+
+.tabmenu > li.active > a{
+    background-color: #ccc;
+}
+
+.tabmenu > li > a:hover{
+    background-color: #ddd;
+}
+
+.tabmenu > li div{
+    position: absolute;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    border: 1px solid #ddd;
+    width: 390px;
+    height: 150px;
+}
+
+.notice li{
+    line-height: 38px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #eee;
+}
+
+.notice span{
+    float: right;
+    margin-right: 5px;
+}
+
+.notice a{
+    margin-left: 5px;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery li{
+    margin-top: 30px;
+    float: left;
+    margin-left: 23px;
+}
+
+.c2{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.c2 img{
+    width: 280px;
+    height: 180px;
+    float: left;
+}
+
+.c3{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+.c3 img{
+    width: 280px;
+    height: 180px;
+    float: right;
+}
+
+.footer{
+    width: 1000px;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+}
+
+.footer-logo img{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+.footer-sub{
+    width: 800px;
+    height: 100px;
+}
+
+
+.footer-down{
+    width: 800px;
+    height: 50px;
+}
+
+.copy{
+    width: 800px;
+    height: 50px;
+}
+
