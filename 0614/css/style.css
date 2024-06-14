@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    color: black;
 }
 
 a {
@@ -24,6 +25,7 @@ a {
 .header{
     width: 1340px;
     height: 100px;
+    position: relative;
 }
 
 .logo{
@@ -33,44 +35,52 @@ a {
     float: left;
 }
 
+.mbg{
+    width: 100%;
+    height: 160px;
+    float: left;
+    position: absolute;
+    background-color: turquoise;
+    z-index: 1;
+    top: 100px;
+    display: none;
+}
+
 .menu{
     width: 1140px;
     height: 100px;
     background-color: orange;
+    position: relative;
     float: left;
 }
 
 .navi{
+    display: block;
     margin-top: 60px;
     margin-right: 20px;
     float: right;
+    z-index: 1;
+    position: relative;
 }
 
 .navi li{
     width: 180px;
     height: 40px;
     line-height: 40px;
-    background-color: aqua;
     float: left;
     text-align: center;
+    background-color: aqua;
 }
 
-.navi > li > a:hover{   
+.navi > li > a:hover{
     background-color: aquamarine;
 }
 
 .sub{
-    /* display: none; */
-   width: 100%;
-   /* position: absolute; */
-   right: 0px;
-    
+    display: none;
 }
 
 .sub > li{
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
     background-color: turquoise;
 }
 
@@ -82,13 +92,33 @@ a {
     width: 100%;
     height: 350px;
     background-color: yellow;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.imgslide{
+    height: 1050;
+}
+
+.imgslide li{
+    height: 350px;
+}
+
+.imgslide span{
+    position: absolute;
 }
 
 .all2{
     width: 1340px;
     height: 670;
     position: relative;
-    bottom: 120px;
+    bottom: 100px;
 }
 
 .contents{
@@ -98,20 +128,89 @@ a {
 
 .c1{
     width: 1340px;
-    height: 120px;
+    height: 100px;
     background-color: green;
 }
 
 .c2{
     width: 1340px;
-    height: 180px;
+    height: 200px;
     background-color: blue;
 }
 
 .c3{
     width: 1340px;
     height: 250px;
-    background-color: navy;
+    /* background-color: navy; */
+}
+
+.tabmenu {
+    width: 1340px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+
+.tabmenu > li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li > a{
+    display: block;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 5px;
+}
+
+.tabmenu > li > a:hover{
+    background-color: #ccc;
+}
+
+.tabmenu > li.active > a{
+    background-color: #ccc;
+}
+
+.tabmenu > li div{
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 600px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+.notice li{
+    line-height: 38px;
+}
+
+.notice a{
+    margin-left: 10px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #eee;
+}
+
+.notice span{
+    float: right;
+    margin-right: 10px;
+}
+
+.notice li:hover{
+    font-weight: bold;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
 }
 
 .footer{
