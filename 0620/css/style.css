@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    width: 100%;
+    height: 100VH;
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 200px;
+    height: calc(100vh - 100px);
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.logo img{
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 200px;
+    height: calc(100vh - 100px);
+    background-color: orange;
+}
+
+.navi{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.navi li{
+    width: 180px;
+    line-height: 40px;
+    background-color: aqua;
+    text-align: center;
+    float: left;
+}
+
+.navi > li > a:hover{
+    background-color: aquamarine;
+}
+
+.sub{
+    display: none;
+    position: relative;
+}
+
+.sub > li{
+    background-color: turquoise;
+}
+
+.sub > li > a:hover{
+    background-color: teal;
+}
+
+.contents{
+    width: 400px;
+    height: calc(100vh - 100px);
+    /* background-color: yellow; */
+    float: left;
+}
+
+.c1{
+    width: 400px;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+
+
+
+.c2{
+    width: 400px;
+    height:350px;
+    background-color: darkcyan;
+}
+
+.c3{
+    width: 400px;
+    height: 200px;
+    background-color: turquoise;
+}
+
+.slide{
+    width: calc(100% - 400px - 200px);
+    height: calc(100vh - 100px);
+    background-color: green;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide img{
+    width: 200vh;
+    height: 100vh;
+    object-fit: cover;
+    float: left;
+}
+
+.imgslide{
+    width: 600vh;
+}
+
+.imgslide span{
+    position: absolute;
+    line-height: 50px;
+    background-color: rgb(32, 30, 30,0.5);
+    width: 700px;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 350px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.footer-logo{
+    width: 200px;
+    height: 100px;
+    background-color: navy;
+    float: left;
+}
+
+.copy{
+    width: calc(100% - 200px - 300px);
+    height: 100px;
+    background-color: purple;
+    float: left;
+}
+
+.family{
+    width: 300px;
+    height: 100px;
+    float: right;
+    background-color: aqua;
+}
