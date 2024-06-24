@@ -1,0 +1,126 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+}
+
+.header{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: orange;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.tabmenu{
+    width: 400px;
+    height: 200px;
+    float: left;
+    /* background-color: green; */
+    position: relative;
+}
+
+.tabmenu > li{
+    width: 100px;
+    line-height: 30px;
+    float: left;
+}
+
+.tabmenu > li > a{
+    text-align: center;
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-top: 5px;
+    display: block;
+}
+
+.tabmenu > li > a:hover{
+    background-color: #eee;
+}
+
+.tabmenu > li.active>a{
+    background-color: #eee;
+}
+
+.tabmenu > li div{
+    position: absolute;
+    height: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.tabmenu > li.active div{
+    width: 393px;
+    height: 150px;
+    border: 1px solid #ddd;
+}
+
+.notice li{
+    line-height: 38px;
+}
+
+.notice a{
+    margin-left: 5px;
+}
+
+.notice li:nth-child(2n){
+    background-color: #eee;
+}
+
+.notice span{
+    float: right;
+    margin-right: 5px;
+}
+
+.c2{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.c3{
+    width: 400px;
+    height: 200px;
+    float: right;
+    background-color: navy;
+}
+
+.footer{
+    width: 1200px;
+    height: 100px;
+    background-color: purple;
+}
